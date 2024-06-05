@@ -15,7 +15,7 @@ services:
       - database
     image: phpmyadmin/phpmyadmin
     ports:
-      - "8080:80"
+      - "8081:80"
     environment:
       PMA_HOST: database
       PMA_PORT: 3306
