@@ -37,10 +37,10 @@ Die Tests sind unter diesem Pfad hinterlegt: `src/test/java/ch/bbw/group4/FilmCl
 
 ## Mitwirkende
 
-Gian Oechselin [https://github.com/AimceptionGian](https://github.com/AimceptionGian)
-Sven Lübcke [https://github.com/klionCH](https://github.com/klionCH)
-Laurin Hubschmied [https://github.com/bambuk-Java](https://github.com/bambuk-Java)
+Gian Oechselin [https://github.com/AimceptionGian](https://github.com/AimceptionGian)  
+Sven Lübcke [https://github.com/klionCH](https://github.com/klionCH)  
+Laurin Hubschmied [https://github.com/bambuk-Java](https://github.com/bambuk-Java)  
 
 ## Quellen
 
-* README.md wurde mit Hilfe diesem Templates erstellt [https://github.com/scottydocs/README-template.md](https://github.com/scottydocs/
+* README.md wurde mit Hilfe diesem Templates erstellt [https://github.com/scottydocs/README-template.md](https://github.com/scottydocs/)
