@@ -13,7 +13,7 @@ Stelle sicher, dass du die Voraussetzungen erfüllst
 * Du hast eine Maven Version
 * Du hast einen funktionierenden Browser
 
-## Installing Film Club
+## Film Club installieren
 
 Um FilmClub zu installieren musst du folgendes machen:
 
@@ -37,9 +37,9 @@ Die Tests sind unter diesem Pfad hinterlegt: `src/test/java/ch/bbw/group4/FilmCl
 
 ## Mitwirkende
 
-Gian Oechselin [https://github.com/AimceptionGian](https://github.com/AimceptionGian)  
-Sven Lübcke [https://github.com/klionCH](https://github.com/klionCH)  
-Laurin Hubschmied [https://github.com/bambuk-Java](https://github.com/bambuk-Java)  
+Gian Oechselin [https://github.com/AimceptionGian](https://github.com/AimceptionGian) 🧠  
+Sven Lübcke [https://github.com/klionCH](https://github.com/klionCH) 😺  
+Laurin Hubschmied [https://github.com/bambuk-Java](https://github.com/bambuk-Java) 😎  
 
 ## Quellen
 
