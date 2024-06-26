@@ -19,3 +19,17 @@ services:
     environment:
       PMA_HOST: database
       PMA_PORT: 3306
+
+  springbootapp:
+    depends_on:
+      - database
+      - phpmyadmin
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://database:3306/filmclub
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 123456
