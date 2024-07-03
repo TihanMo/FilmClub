@@ -11,7 +11,7 @@ public class Regisseur {
         this.Name = name;
         this.Birthdate = birthdate;
     }
-
+    
     public String getVorname() {
         return Vorname;
     }
