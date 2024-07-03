@@ -2,7 +2,9 @@
 
 In diesem Repository befindet sich das Projekt Film Club, welches dem M426 dient. In diesem Modul lernt man Agile Projektentwicklung und um das zu erlernen haben wir uns als Gruppe zusammengetan und arbeiten an diesem Projekt.
 
-// TODO: Trelloboards hinzufügen sobald fertig
+![Sprint 1](./readme_images/sprint1.jpg) <br>
+![Sprint 2](./readme_images/sprint2.jpg) <br>
+![Sprint 3](./readme_images/sprint3.jpg) <br>
 
 ## Voraussetzungen
 
