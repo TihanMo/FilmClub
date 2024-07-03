@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Website1</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>Regisseursuche</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
-    <div id="field">
-        <form>
-            <input type="text" class="input" name="search" placeholder="Search..." >
-            <button type="submit" class="button">Search</button>
-        </form>
-    </div>
+<div id="field">
+    <form>
+        <h2>Suche nach Regisseuren</h2>
+        <input type="text" class="input" name="director" placeholder="Regisseurnamen eingeben...">
+        <button type="submit" class="button">Suchen</button>
+    </form>
+</div>
 </body>
 </html>
