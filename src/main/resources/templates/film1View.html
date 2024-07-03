@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Regisseursuche</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div id="field">
+    <h2>Suche nach Regisseuren</h2>
+    <form action="/search" method="get">
+        <input type="text" class="input" name="vorname" placeholder="Regisseur Vorname eingeben...">
+        <button type="submit" class="button">Suchen</button>
+    </form>
+    <div>
+        <h2>Ergebnisse</h2>
+        <ul>
+            <li th:each="regisseur : ${regisseure}">
+                <span th:text="${regisseur.vorname}">Vorname</span>
+                <span th:text="${regisseur.name}">Name</span>,
+                geboren am <span th:text="${#dates.format(regisseur.birthdate, 'dd.MM.yyyy')}">Geburtsdatum</span>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
